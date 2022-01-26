@@ -15,7 +15,7 @@ public class App
 {
 	 public static void main(String[] args) throws Exception { 
 	     
-	      String[] springConfig  =  { "jobConfig.xml" };  
+	      String[] springConfig  =  { "config/jobConfig.xml" };  
 	      
 	      // Creating the application context object        
 	      ApplicationContext context = new ClassPathXmlApplicationContext(springConfig);  

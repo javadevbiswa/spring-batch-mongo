@@ -1,0 +1,12 @@
+
+sbcsv-mongo/.settings/com.springsource.sts.config.flow.prefs
+sbcsv-mongo/.springBeans
+sbcsv-mongo/.springBeans
+*.class
+sbcsv-mongo/target/classes/sb/csv/mg/App.class
+*.jar
+*.class
+*.prefs
+sbcsv-mongo/.settings/com.springsource.sts.config.flow.prefs
+sbcsv-mongo/target/classes/sb/csv/mg/processor/CustomItemProcessor.class
+sbcsv-mongo/.springBeans

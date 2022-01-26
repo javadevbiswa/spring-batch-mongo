@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beansProjectDescription>
 	<version>1</version>
-	<pluginVersion><![CDATA[3.9.15.202010271126-CI-B2726]]></pluginVersion>
+	<pluginVersion><![CDATA[3.9.18.202109140834-RELEASE]]></pluginVersion>
 	<configSuffixes>
 		<configSuffix><![CDATA[xml]]></configSuffix>
 	</configSuffixes>
@@ -9,7 +9,6 @@
 	<configs>
 		<config>src/main/resources/config/context.xml</config>
 		<config>src/main/resources/config/mongoConfig.xml</config>
-		<config>src/main/resources/job/jobConfig.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
