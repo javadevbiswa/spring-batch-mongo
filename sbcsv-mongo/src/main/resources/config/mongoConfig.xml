@@ -10,15 +10,8 @@
           http://www.springframework.org/schema/beans
           http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<!-- Default bean name is 'mongo' -->
-	<!-- <mongo:mongo-client host="localhost" port="27017" /> -->
-<!-- 	<mongo:mongo host="localhost"/> -->
-<!-- 	<mongo:mongo host="localhost" port="27017"/> -->
-<!-- 	<mongo:db-factory id="mongoDbFactory" dbname="ac" username="biswa" password="biswa123"/> -->
-	<mongo:mongo-client id="mongoClient"
-	host="localhost" port="27017" />
-<!-- 	<mongo:mongo id="mongoL" host="localhost" port="27017"/> -->
-	<mongo:db-factory id="mongoDbFactory" dbname="ac" mongo-client-ref="mongoClient"/>
+	<mongo:mongo host="localhost" port="27017"/>
+	<mongo:db-factory id="mongoDbFactory" dbname="ac" />
 
 	<bean id="mongoTemplate"
 		class="org.springframework.data.mongodb.core.MongoTemplate">

@@ -10,3 +10,11 @@ sbcsv-mongo/target/classes/sb/csv/mg/App.class
 sbcsv-mongo/.settings/com.springsource.sts.config.flow.prefs
 sbcsv-mongo/target/classes/sb/csv/mg/processor/CustomItemProcessor.class
 sbcsv-mongo/.springBeans
+sbcsv-mongo/.settings/com.springsource.sts.config.flow.prefs
+sbcsv-mongo/.settings/com.springsource.sts.config.flow.prefs
+*.class
+sbcsv-mongo/target/classes/sb/csv/mg/App.class
+sbcsv-mongo/target/classes/sb/csv/mg/mapper/EmployeeMapper.class
+sbcsv-mongo/target/classes/sb/csv/mg/model/Employee.class
+sbcsv-mongo/target/classes/sb/csv/mg/processor/CustomItemProcessor.class
+sbcsv-mongo/target/classes/META-INF/maven/sb/sbcsv-mongo/pom.properties
