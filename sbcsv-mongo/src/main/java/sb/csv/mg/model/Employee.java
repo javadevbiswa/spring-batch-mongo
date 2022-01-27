@@ -1,10 +1,14 @@
 package sb.csv.mg.model;
 
+import java.io.Serializable;
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document
-public class Employee {
+public class Employee implements Serializable {
+
+	private static final long serialVersionUID = -231421721515915923L;
 
 	@Id
 	private int eid;
@@ -37,4 +41,8 @@ public class Employee {
 		this.esal = esal;
 	}
 
+	@Override
+	public String toString() {
+		return "Employee [eid=" + eid + ", ename=" + ename + ", esal=" + esal + "]";
+	}
 }

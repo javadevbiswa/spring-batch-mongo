@@ -16,7 +16,8 @@
 		class="org.springframework.data.mongodb.core.mapping.MongoMappingContext" />
 
 	<bean id="mongoTypeMapper"
-		class="org.springframework.data.mongodb.core.convert.DefaultMongoTypeMapper" />
+		class="org.springframework.data.mongodb.core.convert.DefaultMongoTypeMapper"/>
+		
 
 	<bean id="mongoConverter"
 		class="org.springframework.data.mongodb.core.convert.MappingMongoConverter">
