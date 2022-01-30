@@ -1,10 +1,10 @@
-sbcsv-mongo/.settings/
-sbMongo-xml/.settings/
+sbcsv-mongo/.settings/*
+sbMongo-xml/.settings/*
 sbcsv-mongo/.springBeans
 sbMongo-xml/.springBeans
 *.class
 *.jar
 *.class
 *.prefs
-sbcsv-mongo/target/
-sbMongo-xml/target/
+sbcsv-mongo/target/*
+sbMongo-xml/target/*
